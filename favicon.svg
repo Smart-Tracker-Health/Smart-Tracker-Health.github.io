@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Schwarzer Hintergrund -->
+  <circle cx="100" cy="100" r="100" fill="#000000"/>
+
+  <!-- Kreisring -->
+  <path fill="none" stroke="#1e3a5f" stroke-width="2.5"
+        d="M100,15 A85,85 0 1,0 100,185 A85,85 0 1,0 100,15 Z"/>
+
+  <!-- Linke Lunge -->
+  <path fill="#1e3a5f"
+        d="M90,132 L62,132 L48,110 L52,86 L66,80 L80,78 L80,52 L90,44 L98,50 L98,136 L94,140 L86,138 Z"/>
+
+  <!-- Rechte Lunge -->
+  <path fill="#1e3a5f"
+        d="M110,132 L138,132 L154,110 L150,86 L136,80 L122,78 L122,52 L112,44 L104,50 L104,136 L108,140 L116,138 Z"/>
+
+  <!-- EKG-Linie -->
+  <path fill="none" stroke="#38bdf8" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"
+        d="M28,100 L50,100 L64,74 L82,128 L96,94 L108,100 L122,100 L134,80 L150,118 L160,100 L172,100"/>
+</svg>

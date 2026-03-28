@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 500" width="1024" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A5F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f2340;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <clipPath id="circleClip">
+      <circle cx="160" cy="250" r="80"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="500" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="166" x2="1024" y2="166" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="0" y1="333" x2="1024" y2="333" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="341" y1="0" x2="341" y2="500" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="683" y1="0" x2="683" y2="500" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+
+  <!-- Decorative circle top right -->
+  <circle cx="950" cy="80" r="180" fill="#38BDF8" fill-opacity="0.04"/>
+  <circle cx="950" cy="80" r="120" fill="#38BDF8" fill-opacity="0.05"/>
+
+  <!-- App icon: black circle background -->
+  <circle cx="160" cy="250" r="84" fill="#000000" filter="url(#shadow)"/>
+
+  <!-- App icon contents, scaled from 200x200 viewport, centered at (160,250) -->
+  <!-- scale=0.8, translate so that (100,100) maps to (160,250): tx=160-80=80, ty=250-80=170 -->
+  <g transform="translate(80, 170) scale(0.8)">
+    <!-- Kreisring -->
+    <path fill="none" stroke="#1e3a5f" stroke-width="2.5"
+          d="M100,15 A85,85 0 1,0 100,185 A85,85 0 1,0 100,15 Z"/>
+    <!-- Linke Lunge -->
+    <path fill="#1e3a5f"
+          d="M90,132 L62,132 L48,110 L52,86 L66,80 L80,78 L80,52 L90,44 L98,50 L98,136 L94,140 L86,138 Z"/>
+    <!-- Rechte Lunge -->
+    <path fill="#1e3a5f"
+          d="M110,132 L138,132 L154,110 L150,86 L136,80 L122,78 L122,52 L112,44 L104,50 L104,136 L108,140 L116,138 Z"/>
+    <!-- EKG-Linie -->
+    <path fill="none" stroke="#38bdf8" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"
+          d="M28,100 L50,100 L64,74 L82,128 L96,94 L108,100 L122,100 L134,80 L150,118 L160,100 L172,100"/>
+  </g>
+
+  <!-- App name -->
+  <text x="276" y="218" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="56" font-weight="700" fill="#FFFFFF" letter-spacing="-1">AsthmaTracker</text>
+
+  <!-- Tagline -->
+  <text x="278" y="268" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="22" font-weight="400" fill="#38BDF8">Dein Asthma-Tagebuch für Android</text>
+
+  <!-- Feature pills -->
+  <rect x="278" y="300" width="148" height="36" rx="18" fill="#ffffff" fill-opacity="0.1"/>
+  <text x="352" y="323" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="14" font-weight="500" fill="#ffffff" text-anchor="middle">📊 Peak Flow</text>
+
+  <rect x="436" y="300" width="168" height="36" rx="18" fill="#ffffff" fill-opacity="0.1"/>
+  <text x="520" y="323" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="14" font-weight="500" fill="#ffffff" text-anchor="middle">💊 Medikamente</text>
+
+  <rect x="614" y="300" width="130" height="36" rx="18" fill="#ffffff" fill-opacity="0.1"/>
+  <text x="679" y="323" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="14" font-weight="500" fill="#ffffff" text-anchor="middle">📄 PDF-Export</text>
+
+  <rect x="754" y="300" width="120" height="36" rx="18" fill="#ffffff" fill-opacity="0.1"/>
+  <text x="814" y="323" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="14" font-weight="500" fill="#ffffff" text-anchor="middle">🔒 100% offline</text>
+
+  <!-- Bottom tagline -->
+  <text x="278" y="400" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="17" font-weight="400" fill="#ffffff" fill-opacity="0.55">Deine Gesundheitsdaten bleiben auf deinem Gerät.</text>
+
+  <!-- Sky accent line -->
+  <rect x="278" y="430" width="60" height="3" rx="2" fill="#38BDF8"/>
+
+</svg>
