@@ -4,13 +4,13 @@
 AsthmaTracker
 
 ## Kurzbeschreibung (max. 80 Zeichen)
-Asthma-Tagebuch: Peak Flow, Medikamente und Symptome – 100 % offline.
+Asthma-Tagebuch: Peak Flow und Medikamente dokumentieren – 100 % offline.
 
 ## Vollständige Beschreibung (max. 4000 Zeichen)
 
 Behalte dein Asthma im Blick – einfach, schnell und ohne Datenweitergabe.
 
-AsthmaTracker ist ein Asthma-Tagebuch für Android, das dir hilft, deine Lungenfunktion, Medikamenteneinnahmen und Symptome strukturiert zu dokumentieren. Die App funktioniert vollständig offline – deine Gesundheitsdaten bleiben ausschließlich auf deinem Gerät.
+AsthmaTracker ist ein Asthma-Tagebuch für Android, das dir hilft, deine Lungenfunktion und Medikamenteneinnahmen strukturiert zu dokumentieren. Die App funktioniert vollständig offline – deine Gesundheitsdaten bleiben ausschließlich auf deinem Gerät.
 
 **Peak Flow erfassen**
 Trage deine morgendlichen und abendlichen Peak-Flow-Messwerte ein. Die App zeigt dir deinen Verlauf der letzten 14 Tage als Diagramm mit farbigen Ampelzonen (grün/gelb/rot) basierend auf deinem persönlichen Bestwert – so erkennst du Trends auf einen Blick.
