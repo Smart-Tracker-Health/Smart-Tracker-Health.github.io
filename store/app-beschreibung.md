@@ -4,7 +4,7 @@
 AsthmaTracker
 
 ## Kurzbeschreibung (max. 80 Zeichen)
-Asthma-Tagebuch: Peak Flow und Medikamente dokumentieren – 100 % offline.
+Asthma-Tagebuch: Peak Flow und Medikamente dokumentieren - vollständig offline.
 
 ## Vollständige Beschreibung (max. 4000 Zeichen)
 
